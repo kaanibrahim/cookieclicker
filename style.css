@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#cookie {
+    margin: 20px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-image: url('images/cookie_400.png');
+}
+
+#cookie:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
