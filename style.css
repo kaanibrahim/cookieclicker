@@ -31,8 +31,6 @@ main {
 
 #cookie:hover {
     cursor: pointer;
-    transform: scale(1.1);
-    transition: transform 0.2s;
 }
 
 footer {
@@ -44,4 +42,5 @@ footer {
     height: 30px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
