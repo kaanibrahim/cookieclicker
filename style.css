@@ -27,6 +27,7 @@ main {
     width: 400px;
     height: 400px;
     background-image: url('images/cookie_400.png');
+    touch-action: manipulation;
 }
 
 #cookie.cookie-clicked {
