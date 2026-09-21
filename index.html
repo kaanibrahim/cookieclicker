@@ -7,11 +7,17 @@
 </head>
 <body>
     <script src="functions.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        var currentYear = new Date().getFullYear();
+        document.getElementById('currentYear').textContent = currentYear;
+        });
+    </script>
     <header><h1>Cookie Clicker</h1></header>
     <main>
         <div id="cookie" onClick="counterPlusOne(); enLargeCookie()"></div>
         <h2 id="counter">Cookies: 0</h2>
     </main>
-    <footer><p>Copyright © <a href="https://kaanibrahim.com/" target="_blank">Kaan Ibrahim</a> 2025</p></footer>
+    <footer><p>Copyright © <span id="currentYear"></span> <a href="https://kaanibrahim.com/" target="_blank">Kaan Ibrahim</a></p></footer>
 </body>
 </html>
