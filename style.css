@@ -29,6 +29,22 @@ main {
     background-image: url('images/cookie_400.png');
 }
 
+#cookie.cookie-clicked {
+    animation: cookie-click 300ms ease-out;
+}
+
+@keyframes cookie-click {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    40%,
+    65% {
+        transform: scale(1.1);
+    }
+}
+
 #cookie:hover {
     cursor: pointer;
 }

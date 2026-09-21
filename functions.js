@@ -10,14 +10,11 @@ function counterPlusOne() {
     counterElement.textContent = "Cookies: " + currentCount;
 }
 
-let counter = 2;
 function enLargeCookie() {
     let cookie = document.getElementById("cookie");
-    if (counter % 2 === 0) {
-        cookie.style.transform = "scale(1.1)";
-    }
-    else {
-        cookie.style.transform = "scale(1)";
-    }
-    counter += 1
+    cookie.classList.remove("cookie-clicked");
+
+    // Force the animation to restart when the cookie is clicked repeatedly.
+    void cookie.offsetWidth;
+    cookie.classList.add("cookie-clicked");
 }
