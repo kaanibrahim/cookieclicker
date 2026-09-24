@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    align-items: center;
+    text-align: center;
 }
 
 body {
@@ -25,6 +27,7 @@ main {
     margin: 20px;
     border-radius: 50%;
     width: 400px;
+    max-width: 100%;
     height: 400px;
     background-image: url('images/cookie_400.png');
     touch-action: manipulation;

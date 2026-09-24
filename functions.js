@@ -18,3 +18,4 @@ function enLargeCookie() {
     void cookie.offsetWidth;
     cookie.classList.add("cookie-clicked");
 }
+
